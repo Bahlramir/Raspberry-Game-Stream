@@ -19,9 +19,9 @@ sudo make install
 cd ..
 
 sudo apt-get -y install libopus-dev libexpat1-dev libssl-dev libasound2-dev libudev-dev libavahi-client-dev libcurl4-openssl-dev libjs-jquery
-wget https://github.com/Bahlramir/Raspberry-Game-Stream/blob/master/Dependencies/libevdev-dev_1.4.3%2Bdfsg-1_armhf.deb
-wget https://github.com/Bahlramir/Raspberry-Game-Stream/blob/master/Dependencies/libevdev-tools_1.4.3%2Bdfsg-1_armhf.deb
-wget https://github.com/Bahlramir/Raspberry-Game-Stream/blob/master/Dependencies/libevdev2_1.4.3%2Bdfsg-1_armhf.deb
+wget https://github.com/Bahlramir/Raspberry-Game-Stream/raw/master/Dependencies/libevdev-dev_1.4.3%2Bdfsg-1_armhf.deb
+wget https://github.com/Bahlramir/Raspberry-Game-Stream/raw/master/Dependencies/libevdev-tools_1.4.3%2Bdfsg-1_armhf.deb
+wget https://github.com/Bahlramir/Raspberry-Game-Stream/raw/master/Dependencies/libevdev2_1.4.3%2Bdfsg-1_armhf.deb
 sudo dpkg -i libevdev*
 cd
 
